@@ -20,7 +20,7 @@ namespace CS
             parent.GreetingMember("Pankaj");
             parent.GreetingHost();
 
-            
+
 
         }
     }
@@ -34,7 +34,7 @@ namespace CS
             Console.WriteLine("Hello " + memberName + ", I am " + Name);
         }
         public void GreetingHost(){
-            Console.WriteLine("Welcome to the world of Drama, I am " + Name);
+            Console.WriteLine("D D Dance Papa, I am " + Name);
         } 
     }
     public class Child : Parent{
@@ -45,8 +45,8 @@ namespace CS
             Console.WriteLine("Hello " + memberName + ", I am " + Name);
         }
 
-        public new void GreetingHost(){
-            Console.WriteLine("Welcome to the world of Drama, I am " + Name);   
+        public void GreetingHost(){
+            Console.WriteLine("Child can't dance!!!!, I am " + Name);   
         }
     }
 }
